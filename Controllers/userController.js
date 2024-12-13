@@ -2,7 +2,7 @@ const { validationResult } = require("express-validator");
 const db = require("../config/db");
 const jwt = require("jsonwebtoken");
 
-const secretkey = "rahasiabanget!";
+const secretkey = "rahasiaaman!";
 
 const userRegister = (req, res) => {
   const { email, username, password } = req.body;
